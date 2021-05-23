@@ -1,0 +1,112 @@
+[Root]
+Most Recent Package=NetMSG
+Most Recent Deploy=NetMSG Deploy
+
+[Deploy|NetMSG Deploy|Root]
+Package=NetMsg
+Handler=PDWizard.FolderDplySubWiz
+Folder=D:\Coding\VBProjects\MSoft-NetMsg\Deploy
+
+
+[Package|NetMSG|NetMSG v1.0]
+Icon1=NetMSG.exe
+Title1=NetMSG v1.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|NetMSG|MSoft - NetMSG v1.0]
+Icon1=NetMSG.exe
+Title1=NetMSG v1.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|NetMSG|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Coding\vbProjects\MSoft-NetMsg\Package
+
+[Package|NetMSG|Configure DAO ISAMs]
+Applicable=No
+
+[Package|NetMSG|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|NetMSG|Files Found]
+
+[Package|NetMSG|Files Released]
+
+[Package|NetMSG|Missing Dependency Information]
+
+[Package|NetMSG|Out-of-Date Dependency Information]
+C:\WINNT\system32\COMCTL32.OCX=
+C:\WINNT\system32\MSCOMCTL.OCX=
+
+[Package|NetMSG|Files Added]
+
+[Package|NetMSG|Files Removed]
+
+[Package|NetMSG|Files In Project]
+D:\Coding\vbProjects\MSoft-NetMsg\NetMSG.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\olepro32.dll=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\COMCTL32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\vb6stkit.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+
+[Package|NetMSG|Configure Registry Files]
+Applicable=No
+
+[Package|NetMSG|Configure Remote Servers]
+Applicable=No
+
+[Package|NetMSG|Install Locations]
+D:\Coding\vbProjects\MSoft-NetMsg\NetMSG.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\COMCTL32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\vb6stkit.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+
+[Package|NetMSG|Configure Shared Files]
+Applicable=Yes
+D:\Coding\vbProjects\MSoft-NetMsg\NetMSG.exe=No
+
+[Package|NetMSG|Distribution]
+Type=single
+Size=
+Title=NetMSG v1.0
+
+[Package|NetMSG|Package]
+PackageFolder=D:\Coding\vbProjects\MSoft-NetMsg\Package
+ProjectFolder=D:\Coding\VBProjects\MSoft-NetMsg
+ServerSideCab=
+File1=D:\Coding\vbProjects\MSoft-NetMsg\Package\setup.exe
+File2=D:\Coding\vbProjects\MSoft-NetMsg\Package\Setup.Lst
+File3=D:\Coding\vbProjects\MSoft-NetMsg\Package\NetMSG.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|NetMSG|IconGroups]
+Group0=MSoft NetMSG v1.0
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|NetMSG|MSoft NetMSG v1.0]
+Icon1=NetMSG.exe
+Title1=NetMSG v1.0
+StartIn1=$(AppPath)
+Key1=Icon1
